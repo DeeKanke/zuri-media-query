@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .regform {
+    background-color: hsl(0, 100%, 74%);
+    color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  .page-content {
+    position: relative;
+    width: 100%;
+    background: url("bg-intro-desktop.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+  }
+  .left-content {
+    color: hsl(0, 0%, 95%);
+    width: 40%;
+    margin: -30px;
+  }
+  .left-content h2 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .left-content p {
+    font-size: 12px;
+    font-weight: 600;
+    word-spacing: 1px;
+    line-height: 20px;
+  }
+  .right-content {
+    width: 30%;
+    height: 500px;
+  }
+  .right-content .formhead {
+    background-color: hsl(248, 32%, 49%);
+    color: hsl(0, 0%, 95%, 0.8);
+    width: 450px;
+    padding: 10px 15px 15px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px hsla(0, 5%, 24%, 0.219);
+  }
+  .form {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 40px 0px;
+    height: 400px;
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 5px 0px hsla(0, 5%, 24%, 0.219);
+  }
+  
+  .icon {
+    position: absolute;
+    right: 55px;
+    margin-top: 18px;
+  }
+  .error {
+    color: hsl(0, 100%, 74%);
+    font-size: 10px;
+    margin-left: 220px;
+    font-weight: 300;
+  }
+  
+  .form input {
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    border: 2px solid hsla(0, 100%, 74%, 0.534);
+    font-size: 12px;
+    padding: 18px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: hsl(0, 100%, 74%);
+  }
+  form input:hover {
+    border: 1px solid hsl(0, 89%, 48%);
+  }
+  .form button {
+    background-color: hsl(154, 59%, 51%);
+    color: hsla(0, 0%, 100%, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .form button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 89%, 48%);
+  }
+  .footer {
+    margin-left: 40px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: hsl(246, 25%, 77%);
+    align-items: center;
+  }
+  span {
+    color: hsl(0, 100%, 74%);
+  }
